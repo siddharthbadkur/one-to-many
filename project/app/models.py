@@ -6,7 +6,11 @@ class DepartmentModel(models.Model):
     description=models.TextField(max_length=200)
     def __str__(self):
         return  self.dep_name
+ 
 
+
+
+  # my name is mehak patel
 # Create your models here.
 class StudentModel(models.Model):
     stu_Name=models.CharField(max_length=50)
